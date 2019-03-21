@@ -11,7 +11,7 @@ p, a, h1, h2, h3{
 }
 h2{
     text-align: center;
-    border-top: 1px double #edd6c4;
+    border-top: 1px double #fc8e2d;
     padding: .2em;
 }
 img{
@@ -19,12 +19,21 @@ img{
     margin: .5em 0;
 }
 a:hover{
-    background-color: #edd6c4;
+    background-color: #fc8e2d;;
     color: #333;
+}
+#logo:hover{
+    background-color: #111;
 }
 a:active{
     background-color: #635951;
     color: #fff;
+}
+a{
+    color: #fc8e2d; 
+}
+nav a{
+    color: #edd6c4
 }
 h1, nav ul li a{
     font-family: "Georgia";
@@ -40,6 +49,9 @@ ul, ol{
 ul{
     display: flex;
     flex-wrap: wrap;
+}
+main ul{
+  
 }
 main ol, main p{margin-left: 20%}
 ol li{
@@ -62,44 +74,57 @@ main h1{
     }
     #logo{
         margin-right: auto;
-        padding: 0;
+    
     }
     a{
         text-decoration: none;
         padding: .15em .5em;
+       
     }
     nav a{
         text-decoration: none;
-        padding: 40%;
+        padding: 15px 50px;
+    }
+    .blogPhotos{
+        width: 50%;
+        height: auto;
+        margin-left: 25%
     }
 }
-@media screen and (max-width: 599px){
-   
+@media screen and (max-width: 600px){
+    nav ul{
+        display: block;
+    }
     li{
         margin: 0 1em;
     }
     nav li{
-        margin: 1em
+        margin: 1em;
     }
-    a img{
-        height: 4em;
-        width: auto;
+    ul img{
+        width: 50%;
+        margin: 1em auto;
     }
-    #logo{
-        margin-right: auto;
-        padding: 0;
+    nav a img{
+        width: 100%;
     }
     a{
         text-decoration: none;
         padding: .15em .5em;
     }
     nav a{
-        padding: 5%;
+        padding: 2.5%;
         text-align: center;
     }
-    nav ul{
-        display: block;
+    #logo{
+        padding: 90px auto;
     }
+    .blogPhotos{
+        width: 100%;
+        height: auto;
+    }
+    
+   
 }
 footer{
     width: 100%;

@@ -1,9 +1,13 @@
 nav{
     grid-area: header;
     justify-self: center;
+    align-self: center;
 }
 #banner{
     grid-area: banner;
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
 }
 main{
     height: 100%;
@@ -22,7 +26,7 @@ main h1{
 @media screen and (min-width: 600px){
     #grid-container{
         display: grid;
-        grid-template-rows: 4em .5fr 1fr 4em;
+        grid-template-rows: 4em 500px 1fr 4em;
         grid-template-columns: 1fr 2fr;
         grid-template-areas: 
             "header header"
@@ -36,14 +40,14 @@ main h1{
 @media screen and (max-width: 600px){
        #grid-container{
         display: grid;
-        grid-template-rows: .1fr .5fr 100% 1fr 4em;
-        grid-template-columns: 1fr 1fr 2fr;
+        grid-template-rows: .1fr 15em auto 1fr 4em;
+        grid-template-columns: 100%;
         grid-template-areas: 
-            "header header header"
-            "banner banner banner"
-            "main main main"
-            "aside aside aside"
-            "footer footer footer";
+            "header"
+            "banner"
+            "main"
+            "aside"
+            "footer";
         grid-gap: 1em;
         padding: .5em;
     }
