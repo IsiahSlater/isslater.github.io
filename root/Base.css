@@ -1,0 +1,107 @@
+html{
+    background-color: #333;
+    margin: 0;
+    border: 0;
+}
+body{
+    margin: 3em;
+}
+p, a, h1, h2, h3{
+    color: #edd6c4;
+}
+h2{
+    text-align: center;
+    border-top: 1px double #edd6c4;
+    padding: .2em;
+}
+img{
+    width: 100%;
+    margin: .5em 0;
+}
+a:hover{
+    background-color: #edd6c4;
+    color: #333;
+}
+a:active{
+    background-color: #635951;
+    color: #fff;
+}
+h1, nav ul li a{
+    font-family: "Georgia";
+}
+h1{font-size: 2.4em;}
+
+ul, ol{
+    align-items: center;
+    list-style: none;
+    padding: .5em;
+    margin: 0;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+main ol, main p{margin-left: 20%}
+ol li{
+    margin: .2em 0;
+}
+main h1{
+    text-align: center;
+}
+@media screen and (min-width: 600px){
+    nav ul{
+        flex-wrap: nowrap;
+    }
+    li{
+        margin: 0 1em;
+    }
+    a img{
+        height: 2em;
+        width: auto;
+        padding: .2em;
+    }
+    #logo{
+        margin-right: auto;
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+        padding: .15em .5em;
+    }
+    nav a{
+        text-decoration: none;
+        padding: 40%;
+    }
+}
+@media screen and (max-width: 599px){
+   
+    li{
+        margin: 0 1em;
+    }
+    nav li{
+        margin: 1em
+    }
+    a img{
+        height: 4em;
+        width: auto;
+    }
+    #logo{
+        margin-right: auto;
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+        padding: .15em .5em;
+    }
+    nav a{
+        padding: 5%;
+        text-align: center;
+    }
+    nav ul{
+        display: block;
+    }
+}
+footer{
+    width: 100%;
+    text-align: center;
+}
