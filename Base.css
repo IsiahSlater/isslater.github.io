@@ -1,0 +1,132 @@
+html{
+    background-color: #333;
+    margin: 0;
+    border: 0;
+}
+body{
+    margin: 3em;
+}
+p, a, h1, h2, h3{
+    color: #edd6c4;
+}
+h2{
+    text-align: center;
+    border-top: 1px double #fc8e2d;
+    padding: .2em;
+}
+img{
+    width: 100%;
+    margin: .5em 0;
+}
+a:hover{
+    background-color: #fc8e2d;;
+    color: #333;
+}
+#logo:hover{
+    background-color: #111;
+}
+a:active{
+    background-color: #635951;
+    color: #fff;
+}
+a{
+    color: #fc8e2d; 
+}
+nav a{
+    color: #edd6c4
+}
+h1, nav ul li a{
+    font-family: "Georgia";
+}
+h1{font-size: 2.4em;}
+
+ul, ol{
+    align-items: center;
+    list-style: none;
+    padding: .5em;
+    margin: 0;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+main ul{
+  
+}
+main ol, main p{margin-left: 20%}
+ol li{
+    margin: .2em 0;
+}
+main h1{
+    text-align: center;
+}
+@media screen and (min-width: 600px){
+    nav ul{
+        flex-wrap: nowrap;
+    }
+    li{
+        margin: 0 1em;
+    }
+    a img{
+        height: 2em;
+        width: auto;
+        padding: .2em;
+    }
+    #logo{
+        margin-right: auto;
+    
+    }
+    a{
+        text-decoration: none;
+        padding: .15em .5em;
+       
+    }
+    nav a{
+        text-decoration: none;
+        padding: 15px 50px;
+    }
+    .blogPhotos{
+        width: 50%;
+        height: auto;
+        margin-left: 25%
+    }
+}
+@media screen and (max-width: 600px){
+    nav ul{
+        display: block;
+    }
+    li{
+        margin: 0 1em;
+    }
+    nav li{
+        margin: 1em;
+    }
+    ul img{
+        width: 50%;
+        margin: 1em auto;
+    }
+    nav a img{
+        width: 100%;
+    }
+    a{
+        text-decoration: none;
+        padding: .15em .5em;
+    }
+    nav a{
+        padding: 2.5%;
+        text-align: center;
+    }
+    #logo{
+        padding: 90px auto;
+    }
+    .blogPhotos{
+        width: 100%;
+        height: auto;
+    }
+    
+   
+}
+footer{
+    width: 100%;
+    text-align: center;
+}
