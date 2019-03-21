@@ -50,8 +50,8 @@ ul{
     display: flex;
     flex-wrap: wrap;
 }
-main ul{
-  
+main ul li{
+  margin: 1em auto;
 }
 main ol, main p{margin-left: 20%}
 ol li{
@@ -60,7 +60,7 @@ ol li{
 main h1{
     text-align: center;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 768px){
     nav ul{
         flex-wrap: nowrap;
     }
@@ -74,12 +74,10 @@ main h1{
     }
     #logo{
         margin-right: auto;
-    
     }
     a{
         text-decoration: none;
         padding: .15em .5em;
-       
     }
     nav a{
         text-decoration: none;
@@ -91,7 +89,7 @@ main h1{
         margin-left: 25%
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     nav ul{
         display: block;
     }

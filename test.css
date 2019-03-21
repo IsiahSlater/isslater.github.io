@@ -23,7 +23,7 @@ footer{
 main h1{
     grid-area: h1;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 768px){
     #grid-container{
         display: grid;
         grid-template-rows: 4em 500px 1fr 4em;
@@ -37,7 +37,7 @@ main h1{
         padding: .5em;
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
        #grid-container{
         display: grid;
         grid-template-rows: .1fr 15em auto 1fr 4em;
