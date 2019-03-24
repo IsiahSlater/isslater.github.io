@@ -78,6 +78,9 @@ nav li{
     margin: 1em;
 }
 ul img{
+    width: 33%;
+}
+nav ul img{
     width: 100%;
     margin: 1em auto;
 }
