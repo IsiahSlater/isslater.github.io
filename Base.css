@@ -11,7 +11,7 @@ p, a, h1, h2, h3{
 }
 h2{
     text-align: center;
-    border-top: 1px double #fc8e2d;
+    border-top: 1px double #f2ca7b;
     padding: .2em;
 }
 img{
@@ -19,7 +19,7 @@ img{
     margin: .5em 0;
 }
 a:hover{
-    background-color: #fc8e2d;;
+    background-color: #f2ca7b;
     color: #333;
 }
 #logo:hover{
@@ -30,10 +30,13 @@ a:active{
     color: #fff;
 }
 a{
-    color: #fc8e2d; 
+    color: #f2ca7b; 
 }
 nav a{
     color: #edd6c4
+}
+nav{
+    max-width: 100%;
 }
 h1, nav ul li a{
     font-family: "Georgia";
@@ -60,12 +63,16 @@ ol li{
 main h1{
     text-align: center;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 800px){
+    #banner{
+        height: 20em;
+        width: 80%;
+    }
     nav ul{
         flex-wrap: nowrap;
     }
     li{
-        margin: 0 1em;
+        margin: 0 auto;
     }
     a img{
         height: 2em;
@@ -91,7 +98,11 @@ main h1{
         margin-left: 25%
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
+    #banner{
+        height: auto;
+        width: 100%;
+    }
     nav ul{
         display: block;
     }

@@ -5,8 +5,6 @@ nav{
 }
 #banner{
     grid-area: banner;
-    height: 100%;
-    width: auto;
     margin: 0 auto;
 }
 main{
@@ -23,10 +21,10 @@ footer{
 main h1{
     grid-area: h1;
 }
-@media screen and (min-width: 600px){
+@media screen and (min-width: 800px){
     #grid-container{
         display: grid;
-        grid-template-rows: 4em 500px 1fr 4em;
+        grid-template-rows: 4em 20em 1fr 4em;
         grid-template-columns: 1fr 2fr;
         grid-template-areas: 
             "header header"
@@ -37,10 +35,10 @@ main h1{
         padding: .5em;
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
        #grid-container{
         display: grid;
-        grid-template-rows: .1fr 15em auto 1fr 4em;
+        grid-template-rows: auto auto auto 1fr 4em;
         grid-template-columns: 100%;
         grid-template-areas: 
             "header"

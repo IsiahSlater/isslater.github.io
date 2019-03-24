@@ -1,6 +1,7 @@
 #banner{
     display: block;
     width: 100%;
+    height: auto;
     margin: 0 auto;
     padding: 0;
     border: 0;
@@ -16,8 +17,7 @@ h1{
     height: 2em;
     justify-content: center;
     align-items: center;
-    color: #333;
-    background-color: #edd6c4;
+    color: #edd6c4;
 }
 #base{
     width: 50%;
@@ -32,7 +32,7 @@ h1{
     margin: auto;
     text-align: center;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     #base{
         width: 50%;
         float: none;
