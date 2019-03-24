@@ -9,30 +9,11 @@
 h1{
     text-align: center;
 }
-#Slogan{
-    display: flex;
-    margin: 0;
-    padding: 5px;
-    border-top: 0;
-    height: 2em;
-    justify-content: center;
-    align-items: center;
-    color: #edd6c4;
-}
-#base{
-    width: 50%;
-    float: left;
-    margin: auto; 
-    padding: 7% 0;
-    }
-#mid{
-    width: 50%;
-}
 #base p, #base h1{  
     margin: auto;
     text-align: center;
 }
-@media screen and (max-width: 58em){
+
     #base{
         width: 50%;
         float: none;
@@ -45,5 +26,26 @@ h1{
     #Slogan{
         padding: 10px;
         font-size: 150%;
+    }
+
+@media screen and (min-width: 68em){
+    #base{
+        width: 50%;
+        float: left;
+        margin: auto; 
+        padding: 7% 0;
+    }
+    #mid{
+        width: 50%;
+    }
+    #Slogan{
+        display: flex;
+        margin: 0;
+        padding: 5px;
+        border-top: 0;
+        height: 2em;
+        justify-content: center;
+        align-items: center;
+        color: #edd6c4;
     }
 }

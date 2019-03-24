@@ -63,18 +63,56 @@ ol li{
 main h1{
     text-align: center;
 }
-@media screen and (min-width: 58em){
+
+#banner{
+    height: auto;
+    width: 100%;
+}
+nav ul{
+    display: block;
+}
+li{
+    margin: 0 1em;
+}
+nav li{
+    margin: 1em;
+}
+ul img{
+    width: 100%;
+    margin: 1em auto;
+}
+a{
+    text-decoration: none;
+    padding: .15em .5em;
+}
+nav a{
+    padding: 2.5%;
+    text-align: center;
+}
+#logo{
+    padding: 90px auto;
+}
+.blogPhotos{
+    width: 100%;
+    height: auto;
+}
+footer{
+    width: 100%;
+    text-align: center;
+}
+@media screen and (min-width: 68em){
     #banner{
         height: 20em;
         width: 80%;
     }
     nav ul{
         flex-wrap: nowrap;
+        display: flex;
     }
     li{
         margin: 0 auto;
     }
-    a img{
+    ul img{
         height: 2em;
         width: auto;
         padding: .2em;
@@ -97,47 +135,4 @@ main h1{
         height: auto;
         margin-left: 25%
     }
-}
-@media screen and (max-width: 58em){
-    #banner{
-        height: auto;
-        width: 100%;
-    }
-    nav ul{
-        display: block;
-    }
-    li{
-        margin: 0 1em;
-    }
-    nav li{
-        margin: 1em;
-    }
-    ul img{
-        width: 50%;
-        margin: 1em auto;
-    }
-    nav a img{
-        width: 100%;
-    }
-    a{
-        text-decoration: none;
-        padding: .15em .5em;
-    }
-    nav a{
-        padding: 2.5%;
-        text-align: center;
-    }
-    #logo{
-        padding: 90px auto;
-    }
-    .blogPhotos{
-        width: 100%;
-        height: auto;
-    }
-    
-   
-}
-footer{
-    width: 100%;
-    text-align: center;
 }
