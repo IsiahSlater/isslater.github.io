@@ -63,7 +63,7 @@ ol li{
 main h1{
     text-align: center;
 }
-@media screen and (min-width: 800px){
+@media screen and (min-width: 58em){
     #banner{
         height: 20em;
         width: 80%;
@@ -98,7 +98,7 @@ main h1{
         margin-left: 25%
     }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 58em){
     #banner{
         height: auto;
         width: 100%;
