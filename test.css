@@ -6,6 +6,8 @@ nav{
 #banner{
     grid-area: banner;
     margin: 0 auto;
+    width: 80%;
+    max-width: 58em;
 }
 main{
     height: 100%;

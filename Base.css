@@ -53,6 +53,7 @@ ul{
     display: flex;
     flex-wrap: wrap;
 }
+
 main ul{
   
 }
@@ -96,7 +97,7 @@ nav a{
     padding: 90px auto;
 }
 .blogPhotos{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 footer{
@@ -106,7 +107,7 @@ footer{
 @media screen and (min-width: 68em){
     #banner{
         height: 20em;
-        width: 80%;
+        width: 100%;
     }
     nav ul{
         flex-wrap: nowrap;
@@ -138,4 +139,7 @@ footer{
         height: auto;
         margin-left: 25%
     }
+    #contact{
+    margin-left: auto;
+}
 }
