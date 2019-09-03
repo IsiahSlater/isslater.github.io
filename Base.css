@@ -409,7 +409,7 @@ main
     }
     #yellow
     {
-        background: #333;
+        background: #fee98c;
     }
     #yellow h1
     {
@@ -481,7 +481,7 @@ main
     #LBlue p
     {
         position: absolute;
-        font-size: 150%;
+        font-size: 170%;
         top: 20%;
         left: 50%;
         width: 45%;
