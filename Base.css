@@ -719,11 +719,11 @@ main
     {
       float: none;
     }
-    li p
+    li a
     {
         font-size: 144px;
     }
-        span button
+    span button
     {
         width: 10%;
         height: auto;
