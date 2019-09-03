@@ -200,7 +200,8 @@ main
 }
 
 /*Smallest */
-@media (max-width: 780px){
+@media only screen and (max-width: 780px), only screen and (max-device-width: 780px) {
+    
     span button
     {
         width: 5em;
