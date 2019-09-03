@@ -1,7 +1,7 @@
 # isslater.github.io
 A Passion Project for building my resume website. 
 This is a very early version of the website:
-islaterslater.com
+isiahslater.com
 
 Current Implementations:
 -Home Page
