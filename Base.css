@@ -48,6 +48,29 @@ main
 {
     font-size: 0;
 }
+
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+    color: #fff;
+}
+a:active
+{
+    text-decoration: underline;
+    color: #fee98c;
+}
+#Tan a
+{
+    color: #487ba6;
+}
+#yellow a
+{
+    color: #feadb9;
+}
 /*Smaller */
 @media (max-width: 1003px){
     h1
@@ -113,6 +136,10 @@ main
     {
         top: 28%;
     }
+    #yellow a
+    {
+        color: #9799ba;
+    }
     .line
     {
         width: 0;
@@ -171,6 +198,7 @@ main
         background: #f9e1e0;
         height: 100%;
     }
+ 
     #Tan h1
     {
         text-align: right;
@@ -683,6 +711,7 @@ main
     #Tan h1
     {
         text-align: right;
+        width: 90%
     }
     footer
     {
