@@ -1,6 +1,6 @@
 html
 {
-    
+    scroll-behavior: smooth;
 }
 .grid-container
 {
@@ -9,39 +9,6 @@ html
 body
 {
     margin: 0;
-}
-ul 
-{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #487ba6;
-}
-
-li 
-{
-  float: right;
-}
-
-li a 
-{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-span button
-{
-    width: 7%;
-    height: 7%;
-    position: fixed;
-    background: #487ba6;
-    border: 0;
-    top: 0;
-    z-index: 2;
 }
 
 main
@@ -70,6 +37,73 @@ a:active
 #yellow a
 {
     color: #feadb9;
+}
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #487ba6;
+}
+
+li 
+{
+  float: right;
+}
+li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdownButton:hover, .dropdownButton:focus
+{
+    background-color: #9799ba;
+}
+
+.dropdown-content
+{
+    display: none;
+    position: fixed;
+    background-color: #487ba6;
+    min-width: 160px;
+    margin-top: -15px;
+    z-index: 1;
+}
+.dropdown-content li
+{
+    float: none;
+}
+.dropdown-content a
+{
+    color: #f9e1e0;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+}
+.dropdown-content a:hover 
+{
+    background-color: #9799ba;
+}
+.dropdown:hover .dropdown-content
+{
+    display: block;
+}
+button
+{
+    width: 7%;
+    height: 7%;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    background: #487ba6;
+    border: 0;
+    top: 0;
+    z-index: 2;
 }
 /*Smaller */
 @media (max-width: 1003px){
@@ -223,7 +257,7 @@ a:active
 /*Smallest */
 @media only screen and (max-width: 780px) {
     
-    span button
+    button
     {
         width: 5em;
         height: 5em;
@@ -381,7 +415,7 @@ a:active
 
 /*medium */
 @media (min-width: 1003px){
-    span button
+    button
     {
         width: 75px;
         height: 75px;
@@ -558,7 +592,7 @@ a:active
 
 /*Large*/
 @media (min-width: 1300px){
-    span button
+    button
     {
         width: 75px;
         height: 75px;
@@ -752,10 +786,11 @@ a:active
     {
         font-size: 100px;
     }
-    span button
+    button
     {
         width: 10%;
         height: auto;
+        z-index: -1;
     }
     
     h1
@@ -908,4 +943,11 @@ a:active
     {
         color: #feadb9;
     }
+}
+.dropdown
+{
+    position: absolute;
+    display: inline-block;
+    height: auto;
+    z-index: 1;
 }
