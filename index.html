@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="Base.css">
         <script src="WebsiteFunctions.js"></script>
     </head>
-    <body id="grid-container">
+    <body id="grid-container" onload="smoothScroll()">
         
         <nav id="phoneHeader">
             <ul>
@@ -20,8 +20,8 @@
             <button onclick="dropDown()" class="dropDownButton"><p>I.S</p></button>
             <ul class="dropdown-content">
                 <li><a>Gallery</a></li>
-                <li><a>About</a></li>
-                <li><a>Contact</a></li>
+                <li><a href="#LBlue">About</a></li>
+                <li><a href="https://www.facebook.com/IsiahInventions">Contact</a></li>
             </ul>
         </div>
         
@@ -47,7 +47,7 @@
                 <img src="Images/turntable.gif">
                 <div class="line"></div>
             </div>
-            <div id="Tan" onscroll="nextDiv()">
+            <div id="Tan">
                 <h1><a href="https://github.com/Isslater">MY CODING PROJECTS ARE THIS WAY</a></h1>
             </div>
         </main>
@@ -56,5 +56,6 @@
             <p><a href="#top">Top</a></p>
             <p>@2019 Isiah Slater</p>
         </footer>
+        
     </body>
 </html>

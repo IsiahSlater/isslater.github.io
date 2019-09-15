@@ -59,6 +59,10 @@ li a
   padding: 14px 16px;
   text-decoration: none;
 }
+#phoneHeader
+{
+    display: none;
+}
 .dropdownButton:hover, .dropdownButton:focus
 {
     background-color: #9799ba;
@@ -70,7 +74,7 @@ li a
     position: fixed;
     background-color: #487ba6;
     min-width: 160px;
-    margin-top: -15px;
+    margin-top: 75px;
     z-index: 1;
 }
 .dropdown-content li
@@ -95,8 +99,8 @@ li a
 }
 button
 {
-    width: 7%;
-    height: 7%;
+    width: 75px;
+    height: 75px;
     padding: 0;
     margin: 0;
     position: fixed;
@@ -259,8 +263,8 @@ button
     
     button
     {
-        width: 5em;
-        height: 5em;
+        width: 75px;
+        height: 75px;
     }
     h1
     {
@@ -322,6 +326,10 @@ button
         width: 100%;
         top: 30%;
         background: #9799ba;
+        color: #feadb9;
+    }
+    #yellow a:hover
+    {
         color: #feadb9;
     }
     #yellow #here
@@ -777,7 +785,6 @@ button
       width: 100%;
       background-color: #487ba6;
     }
-
     li 
     {
       float: none;
@@ -786,11 +793,15 @@ button
     {
         font-size: 100px;
     }
+    #phoneHeader
+    {
+        display: block;
+    }
     button
     {
         width: 10%;
         height: auto;
-        z-index: -1;
+        display: none;
     }
     
     h1
