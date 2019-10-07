@@ -166,17 +166,18 @@ button
     {
         top: 2%;
     }
+    #yellow a
+    {
+        color: #9799ba;
+    }
     #yellow #flip
     {
+        color: #feadb9;
         top: 15%;
     }
     #yellow #here
     {
         top: 28%;
-    }
-    #yellow a
-    {
-        color: #9799ba;
     }
     .line
     {
@@ -326,6 +327,10 @@ button
         width: 100%;
         top: 30%;
         background: #9799ba;
+        color: #feadb9;
+    }
+      #yellow a
+    {
         color: #feadb9;
     }
     #yellow a:hover
