@@ -6,8 +6,8 @@
         <link rel="stylesheet" type="text/css" href="Base.css">
         <script src="WebsiteFunctions.js"></script>
     </head>
-    <body id="grid-container" onload="smoothScroll()">
-        
+    <body id="grid-container" onscroll="smoothScroll()">
+
         <nav id="phoneHeader">
             <ul>
                <li><a href="https://drive.google.com/drive/folders/1cXByB5EQih7qbxir7pkYKFZMJKnQ02oB?usp=sharing">Gallery</a></li>
@@ -15,16 +15,24 @@
                 <li><a href="https://www.facebook.com/IsiahInventions">Contact</a></li>
             </ul>
         </nav>
-        
-        <div class="dropdown">
-            <button onclick="dropDown()" class="dropDownButton"><p>I.S</p></button>
-            <ul class="dropdown-content">
-                <li><a href="https://drive.google.com/drive/folders/1cXByB5EQih7qbxir7pkYKFZMJKnQ02oB?usp=sharing">Gallery</a></li>
-                <li><a href="#LBlue">About</a></li>
-                <li><a href="https://www.facebook.com/IsiahInventions">Contact</a></li>
-            </ul>
+
+        <div id="menu" class="overlay">
+
+  <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="ComingSoon.html">Gallery</a>
+            <a href="#">Contact</a>
+          </div>
         </div>
-        
+
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <span onclick="openNav()" id="menuButton"><p>☰</p></span>
+
         <main id="top" class="grid-item">
             <div id="Title" onscroll="nextDiv()">
                  <h1>BORN TO BE</h1>
@@ -41,7 +49,7 @@
                 <img src="Images/Text.png">
             </div>
             <div id="Yellow" onscroll="nextDiv()">
-                <h1>2D ART CAN</h1> 
+                <h1>2D ART CAN</h1>
                 <h1 id="Flip"><a href="https://drive.google.com/drive/folders/1cXByB5EQih7qbxir7pkYKFZMJKnQ02oB?usp=sharing">BE FOUND</a></h1>
                 <h1 id="here">HERE</h1>
                 <img src="Images/turntable.gif">
@@ -51,11 +59,11 @@
                 <h1><a href="https://github.com/Isslater">MY CODING PROJECTS ARE THIS WAY</a></h1>
             </div>
         </main>
-        
+
         <footer class="grid-item">
             <p><a href="#top">Top</a></p>
             <p>@2019 Isiah Slater</p>
         </footer>
-        
+
     </body>
 </html>
